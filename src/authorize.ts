@@ -26,7 +26,7 @@ export interface IEveryAuthContext {
   tenantId: string /** The tenantId supplied by the mapToTenantId function for this request, or the userId if not supplied. */;
   userId: string /** The userId supplied by the mapToUserId function for this request. */;
 }
-
+// 555555
 export interface IEveryAuthAuthorizedContext {
   serviceId: string;
   tags: IEveryAuthTagSet;
